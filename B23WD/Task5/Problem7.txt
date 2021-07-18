@@ -1,0 +1,9 @@
+var expected = {foo: 5, bar: 6};
+var actual = {foo: 5, bar: 6}
+function assertObjectsEqual(actual, expected){
+    if(JSON.stringify(expected)===(JSON.stringify(actual)))
+        return "Passed";
+    else
+        return `Failed. Expected ${expected} but got ${actual}`;
+}
+console.log(assertObjectsEqual(actual, expected));

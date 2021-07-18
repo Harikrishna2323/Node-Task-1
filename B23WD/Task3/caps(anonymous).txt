@@ -1,0 +1,9 @@
+var str = ['harikrishna','krishna','guvi'];
+var isCaps =function(){
+    for(var i = 0;i<str.length;i++)
+    {
+        str[i]=str[i].toUpperCase();
+        console.log(str[i]);
+    }
+};
+isCaps(['harikrishna','krishna','guvi']);

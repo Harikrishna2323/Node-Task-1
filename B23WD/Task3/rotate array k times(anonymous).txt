@@ -1,0 +1,13 @@
+var array = function(arr,k){
+    var i =0;
+    while(k>0){
+        var temp = arr[arr.length - 1];
+        for(var j = arr.length-1 ; j>0 ; j--){
+            arr[j] = arr[j-1];
+        }
+        arr[j]=temp;
+        k--;
+    }
+    console.log(arr);
+};
+array([1,2,3,4,5,6],3);

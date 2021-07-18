@@ -1,0 +1,14 @@
+var str = [121,232,555,46652,852];
+var temp = '';
+var isPalindrom =function(){
+    for(var i = 0;i<str.length;i++)
+    {
+        temp=str[i].toString().split("");
+        rev = temp.reverse();
+        rev=rev.join("");
+        if(str[i] == rev){
+            console.log(str[i] + " is a Palindrome")
+        }
+    }
+};
+isPalindrom([121,232,555,46652,852]);

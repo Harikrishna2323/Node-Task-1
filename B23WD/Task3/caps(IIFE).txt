@@ -1,0 +1,7 @@
+(function(str){
+    for(var i = 0;i<str.length;i++)
+    {
+        str[i]=str[i].toUpperCase();
+        console.log(str[i]);
+    }
+}(["harikrishna","krishna","guvi"]))

@@ -1,0 +1,14 @@
+var str = [1,2,2,3,5,6,6,8,7,3,5]
+console.log(str);
+var arr = [];
+var duplicate =function(str){
+    
+    for(var i =0; i<str.length;i++){
+        if(arr.indexOf(str[i])==-1){
+            arr.push(str[i]);
+        }
+    }
+    console.log(arr);
+    
+};
+duplicate(str);

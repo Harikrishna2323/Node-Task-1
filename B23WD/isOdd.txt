@@ -1,0 +1,14 @@
+var str = [5,84,78,99,66,23,12];
+var isOdd =function(){
+    for(var i = 0;i<str.length;i++)
+    {
+        if(str[i]%2 === 0)
+        {
+            continue;
+        }
+        else{
+            console.log(str[i]);
+        }
+    }
+};
+isOdd(str);

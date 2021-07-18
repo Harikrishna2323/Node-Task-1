@@ -1,0 +1,8 @@
+var array = [["make", "Ford"], ["model", "Mustang"], ["year", 1964]];
+
+function fromListToObject(array){
+    var newObject = {};
+    newObject = Object.fromEntries(array);
+    return newObject;
+}
+console.log(fromListToObject(array));

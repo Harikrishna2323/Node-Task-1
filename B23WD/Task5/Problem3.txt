@@ -1,0 +1,6 @@
+var obj = {name: "ISRO", age: 35, role: "Scientist"};
+function convertListToObject(obj) {
+        var arr = Object.entries(obj);
+        console.log(arr);
+}
+convertListToObject(obj);

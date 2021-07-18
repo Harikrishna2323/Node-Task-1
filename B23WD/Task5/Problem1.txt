@@ -1,0 +1,6 @@
+var obj = {name: "RajiniKanth", age: 33, hasPets : false};
+function printAllValues(obj){
+    let arr = Object.values(obj);
+    console.log(arr);
+}
+printAllValues(obj);

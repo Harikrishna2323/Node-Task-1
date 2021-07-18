@@ -1,0 +1,30 @@
+var median = function(a,b){
+  var c=[];
+  var n = a.length;
+  var m = b.length;
+  var i=0;
+  var j=0;
+  var med = 0;
+  while(i<n || j<m)
+  {
+      if(a[i]<b[j]){
+          c.push(a[i]);
+          i++;
+      }
+      else{
+          c.push(b[j]);
+          j++;
+      }
+      
+  }
+  if(c.lenght%2===0){
+    med = c[((c.length/2)-1)+c.length/2];
+    console.log(med);
+  }
+  else
+  {
+    med = c[(Math.floor(c.length/2))];
+    console.log(med);
+    }
+    };
+    median([1,2],[2,4]);
